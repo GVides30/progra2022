@@ -55,7 +55,7 @@ public class Persona {
     }
 
     public void comprobarSexo() {
-
+   
         if (sexo.equalsIgnoreCase("h")) {
             sexo = "H";
         } else if (sexo.equalsIgnoreCase("m")) {

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Operaciones Básicas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+             <h1>¡Bienvenido!</h1>
+        <form action="Operaciones" method="POST">
+        <h4>Escriba 2 números y seleccione el tipo de operación que desea hacer.</h4>
+        <div>
+            <a>Primer número:    </a>
+        <input type = "text" name="num1">
+        </div>
+        <div> 
+          <a>Segundo número:  </a>
+          <input type = "text" name="num2">
+        </div>
+        <div>
+            <a>Tipo de operación</a>
+        <select name="Operaciones" id="Opera">
+                <option value="Suma" name="Suma">Suma</option>
+                <option value="Resta" name="Resta">Resta</option>
+                <option value="Multi" name="Multi">Multiplicación</option>
+                 <option value="Div" name="Div">División</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Resolver">
+        </div>
+        </form>
+    </body>
+</html>
